@@ -1,0 +1,121 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+
+@media (min-width:768px) {
+    #showcase-carousel .carousel-item {
+        height: 28.125rem;
+    }
+}
+
+#home-icons .fa, #icon-boxes .fa {
+    font-size:55px
+}
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url(../img/lights.jpg) no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url(../img/media.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+
+#video-play a {
+    color:#fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+#page-header {
+    height: 200px;
+    background-attachment: fixed;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#home header#page-header {
+    background: url(../img/image1.jpg);
+    background-position: 0 -360px;
+    color: #fff;
+}
+
+#about header#page-header {
+    background: url(../img/image2.jpg);
+    background-position: 0 -360px;
+    color: #fff;
+}
+
+#services header#page-header {
+    background: url(../img/image3.jpg);
+    background-position: 0 -460px;
+    color: #fff;
+}
+
+#blog header#page-header {
+    background: url(../img/lights.jpg);
+    background-position: 0 -105px;
+    color: #fff;
+}
+
+#contact header#page-header {
+    background: url(../img/media.jpg);
+    background-position: 0 -75px;
+}
+
+#about-section img {
+    margin-top: -50px;
+}
+
+#testimonials-section .carousel-control-prev-icon, #testimonials-section .carousel-control-next-icon {
+    background-image: none;
+}
+
+#testimonials-section .fa {
+    font-size: initial;
+}
+
+#testimonials-section .carousel-item {
+    height:8.5rem;
+}
+
+@media (min-width:768px) {
+    #testimonials-section .carousel-item {
+        height:5.75rem;
+    }
+}
+
+#faq-section .card-header {
+    cursor: pointer;
+}
